@@ -1,4 +1,4 @@
-export function MdiPlus({ width, height }) {
+export function PlusIcon({ width, height }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

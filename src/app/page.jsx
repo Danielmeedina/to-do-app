@@ -1,6 +1,6 @@
 "use client";
 import { useHydration } from "@/hooks/useHydration";
-import { MdiPlus } from "@/icons/Plus";
+import { PlusIcon } from "@/icons/PlusIcon";
 import TaskSection from "@/components/TaskSection";
 import Link from "next/link";
 import LoaderTask from "@/components/LoaderTask";
@@ -20,7 +20,7 @@ export default function Home() {
           href="/new"
           className="w-full min-h-[550px] flex flex-col justify-center items-center transition-colors border rounded-lg text-6xl border-transparent hover:border-sky-500 text-white cursor-pointer hover:text-sky-500"
         >
-          <MdiPlus width="7rem" height="7rem" />
+          <PlusIcon width="7rem" height="7rem" />
           Create
         </Link>
       ) : (

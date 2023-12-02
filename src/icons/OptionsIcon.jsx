@@ -1,4 +1,4 @@
-export function MiOptionsVertical({ width, height }) {
+export function OptionsIcon({ width, height }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

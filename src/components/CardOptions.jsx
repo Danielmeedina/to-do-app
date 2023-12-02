@@ -1,4 +1,4 @@
-import { MiOptionsVertical } from "@/icons/Options";
+import { OptionsIcon } from "@/icons/OptionsIcon";
 import { useTasks } from "@/store/Task";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
@@ -33,7 +33,7 @@ function CardOptions({ task }) {
   return (
     <div className="relative">
       <button className="peer cursor-pointer">
-        <MiOptionsVertical width="30px" height="30px" />
+        <OptionsIcon width="30px" height="30px" />
       </button>
       <aside className="group w-[145px] [clip-path:polygon(1%_1%,_84%_0,_84%_19%,_100%_19%,_99%_99%,_0%_99%)] transition invisible opacity-0 peer-hover:visible peer-hover:opacity-100 hover:visible hover:opacity-100 absolute bottom-[-100px] left-[-110px] z-20">
         <div className="w-[115px] rounded-md text-[16px] flex flex-col gap-[8px] items-start p-[8px] bg-slate-800">

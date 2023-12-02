@@ -1,4 +1,4 @@
-export function ZondiconsInformationOutline({ width, height }) {
+export function InformationIcon({ width, height }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

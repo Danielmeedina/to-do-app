@@ -1,4 +1,4 @@
-import { MdiPlus } from "@/icons/plus";
+import { PlusIcon } from "@/icons/PlusIcon";
 import Link from "next/link";
 
 function Navbar() {
@@ -16,7 +16,7 @@ function Navbar() {
         href="/new"
         className="flex flex-row gap-1 items-center bg-sky-500 px-2 py-2 border rounded-md border-sky-500 text-black hover:bg-transparent hover:text-white"
       >
-        <MdiPlus width="1.5rem" height="1.5rem" /> New
+        <PlusIcon width="1.5rem" height="1.5rem" /> New
       </Link>
     </nav>
   );
